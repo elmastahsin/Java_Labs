@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Labs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab01VariablesOperators/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab01VariablesOperators/MyFirstProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab01VariablesOperators/OrdinaryTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab01VariablesOperators/SwapNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab01VariablesOperators/UserRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab02SelectionStatements/AppleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab02SelectionStatements/GitHubFindBestDeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab02SelectionStatements/QuizApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab02SelectionStatements/TrainBookingApp.java" afterDir="false" />
+    <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
+      <change beforePath="$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +34,18 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/tahsinelmas/IdeaProjects/Java_Labs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tahsinelmas/IdeaProjects/Java_Labs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.TrainBookingApp">
     <configuration name="AppleTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab02SelectionStatements.AppleTask" />
@@ -147,7 +132,16 @@
       <updated>1661259890863</updated>
       <workItem from="1661894983960" duration="1000" />
       <workItem from="1662106164831" duration="3272000" />
+      <workItem from="1662181943520" duration="691000" />
     </task>
+    <task id="LOCAL-00001" summary="JavaLabs">
+      <created>1662182789774</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662182789774</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JavaLabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaLabs" />
   </component>
 </project>
