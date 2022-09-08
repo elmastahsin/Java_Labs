@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change beforePath="$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab02SelectionStatements/FindTheBestDeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab04Debug/Debug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TrainBookingApp">
+  <component name="RunManager" selected="Application.FindTheBestDeal">
     <configuration name="AppleTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab02SelectionStatements.AppleTask" />
       <module name="Java_Labs" />
@@ -60,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab01VariablesOperators.CoinChange" />
+    <configuration name="Debug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab04Debug.Debug" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab01VariablesOperators.*" />
+          <option name="PATTERN" value="lab04Debug.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdinaryTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab01VariablesOperators.OrdinaryTask" />
+    <configuration name="FindTheBestDeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab02SelectionStatements.FindTheBestDeal" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab01VariablesOperators.*" />
+          <option name="PATTERN" value="lab02SelectionStatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab01VariablesOperators.SwapNumbers" />
+    <configuration name="PizzaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab03LoopsMethods.PizzaApp" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab01VariablesOperators.*" />
+          <option name="PATTERN" value="lab03LoopsMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheBestDeal" />
+        <item itemvalue="Application.PizzaApp" />
+        <item itemvalue="Application.Debug" />
         <item itemvalue="Application.TrainBookingApp" />
         <item itemvalue="Application.AppleTask" />
-        <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.SwapNumbers" />
-        <item itemvalue="Application.OrdinaryTask" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +134,16 @@
       <updated>1661259890863</updated>
       <workItem from="1661894983960" duration="1000" />
       <workItem from="1662106164831" duration="3272000" />
-      <workItem from="1662181943520" duration="691000" />
+      <workItem from="1662181943520" duration="2214000" />
+      <workItem from="1662211025249" duration="598000" />
+      <workItem from="1662230792374" duration="598000" />
+      <workItem from="1662266494853" duration="636000" />
+      <workItem from="1662501183177" duration="3013000" />
+      <workItem from="1662528204980" duration="1300000" />
+      <workItem from="1662538711721" duration="180000" />
+      <workItem from="1662565482756" duration="2135000" />
+      <workItem from="1662584352805" duration="714000" />
+      <workItem from="1662617104011" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -141,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662182789774</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JavaLabs">
+      <created>1662182968062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662182968062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,5 +179,60 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JavaLabs" />
     <option name="LAST_COMMIT_MESSAGE" value="JavaLabs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
+          <line>86</line>
+          <properties class="lab03LoopsMethods.PizzaApp" method="isInputValid">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab02SelectionStatements/FindTheBestDeal.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab02SelectionStatements/FindTheBestDeal.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
