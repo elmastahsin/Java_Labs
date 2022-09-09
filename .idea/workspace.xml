@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change afterPath="$PROJECT_DIR$/src/lab02SelectionStatements/FindTheBestDeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab04Debug/Debug.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +141,8 @@
       <workItem from="1662538711721" duration="180000" />
       <workItem from="1662565482756" duration="2135000" />
       <workItem from="1662584352805" duration="714000" />
-      <workItem from="1662617104011" duration="598000" />
+      <workItem from="1662617104011" duration="1214000" />
+      <workItem from="1662705698028" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662182968062</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JavaLabs">
+      <created>1662637207044</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662637207044</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
