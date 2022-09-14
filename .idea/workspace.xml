@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change afterPath="$PROJECT_DIR$/src/lab05_String/FrequencyOfWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab05_String/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab02SelectionStatements/FindTheBestDeal.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab05_String/FrequencyOfWord2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FrequencyOfWord">
+  <component name="RunManager" selected="Application.FrequencyOfWord2">
     <configuration name="FindTheBestDeal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab02SelectionStatements.FindTheBestDeal" />
       <module name="Java_Labs" />
@@ -76,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab03LoopsMethods.PizzaApp" />
+    <configuration name="FrequencyOfWord2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab05_String.FrequencyOfWord2" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab03LoopsMethods.*" />
+          <option name="PATTERN" value="lab05_String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrequencyOfWord2" />
         <item itemvalue="Application.FrequencyOfWord" />
         <item itemvalue="Application.StringMethosPractice" />
         <item itemvalue="Application.Reverse" />
         <item itemvalue="Application.FindTheBestDeal" />
-        <item itemvalue="Application.PizzaApp" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +153,7 @@
       <workItem from="1663081237958" duration="1794000" />
       <workItem from="1663092289073" duration="597000" />
       <workItem from="1663142341558" duration="718000" />
-      <workItem from="1663148630523" duration="1615000" />
+      <workItem from="1663148630523" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663084995986</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="JavaLabs">
+      <created>1663150694461</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663150694461</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
