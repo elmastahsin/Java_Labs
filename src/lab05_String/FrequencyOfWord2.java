@@ -4,11 +4,11 @@ public class FrequencyOfWord2 {
     public static void main(String[] args) {
         String s = "Java Java Java Java Python C# Ruby";
 
-        int countJava = 0 ;
+        int countJava = 0;
 
-        while (s.contains("Java")){
+        while (s.contains("Java")) {
 
-          s = s.replaceFirst("Java","");
+            s = s.replaceFirst("Java", "");
 
             countJava++;
         }
