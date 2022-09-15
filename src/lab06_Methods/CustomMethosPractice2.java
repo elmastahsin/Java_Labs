@@ -13,6 +13,8 @@ public class CustomMethosPractice2 {
         System.out.println("**********************");
 
         System.out.println(right2("Hello"));
+        System.out.println(right2("Java"));
+        System.out.println(right2("Hi"));
     }
 
     public static String comboString(String a, String b) {
