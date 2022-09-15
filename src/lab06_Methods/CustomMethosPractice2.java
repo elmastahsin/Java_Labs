@@ -15,6 +15,22 @@ public class CustomMethosPractice2 {
         System.out.println(right2("Hello"));
         System.out.println(right2("Java"));
         System.out.println(right2("Hi"));
+
+        System.out.println("***************************");
+
+        System.out.println(frontAgain("edited"));
+        System.out.println(frontAgain("Hello"));
+        System.out.println(frontAgain("Java"));
+
+        System.out.println("***************************");
+
+        System.out.println(countHi("Hi Hi Hi hi Hi"));
+
+        System.out.println("*******************************");
+
+        System.out.println();
+
+
     }
 
     public static String comboString(String a, String b) {
@@ -49,4 +65,27 @@ public class CustomMethosPractice2 {
         String result = s1+ s2;
         return result;
     }
+
+    public static boolean frontAgain(String str){
+        if (str.length()<2){
+            return false;
+        }
+        return str.substring(0,2).equals(str.substring(str.length()-2));
+    }
+
+    public static int countHi(String str){
+        str = str.toLowerCase();
+      return  StringUtility.frequency(str, "hi");
+    }
+
+    public static boolean catDog (String str ){
+        str = str.toLowerCase();
+        int countCat = StringUtility.frequency(str,"cat");
+        int countDog = StringUtility.frequency(str,"dog");
+
+        return countDog==countCat;
+    }
+
+
+
 }
