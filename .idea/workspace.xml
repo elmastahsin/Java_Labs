@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change afterPath="$PROJECT_DIR$/src/lab06_Methods/CustomMethodsPractice4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab07_ClassObject/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab07_ClassObject/TestCarObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab06_Methods/StringUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab06_Methods/StringUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CustomMethodsPractice4">
+  <component name="RunManager" selected="Application.TestCarObjects">
     <configuration name="CustomMethodsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab06_Methods.CustomMethodsPractice" />
       <module name="Java_Labs" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab03LoopsMethods.PizzaApp" />
+    <configuration name="TestCarObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab07_ClassObject.TestCarObjects" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab03LoopsMethods.*" />
+          <option name="PATTERN" value="lab07_ClassObject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCarObjects" />
         <item itemvalue="Application.CustomMethodsPractice4" />
         <item itemvalue="Application.CustomMethodsPractice3" />
         <item itemvalue="Application.CustomMethosPractice2" />
         <item itemvalue="Application.CustomMethodsPractice" />
-        <item itemvalue="Application.PizzaApp" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +157,7 @@
       <workItem from="1663092289073" duration="597000" />
       <workItem from="1663142341558" duration="718000" />
       <workItem from="1663148630523" duration="8018000" />
-      <workItem from="1663218163122" duration="11273000" />
+      <workItem from="1663218163122" duration="14475000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663234417779</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="JavaLabs">
+      <created>1663243822325</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663243822325</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
