@@ -31,5 +31,13 @@ public class TestCarObjects {
         System.out.println(car3);
 
         car1.drive();
+
+
+        System.out.println("----------------------------");
+
+        Car car4 = new Car();
+
+        car4 = null;
+        car4.drive();
     }
 }

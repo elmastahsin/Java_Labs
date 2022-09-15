@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change afterPath="$PROJECT_DIR$/src/lab07_ClassObject/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab07_ClassObject/CydeoStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab07_ClassObject/TestAddressObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab07_ClassObject/TestCydeoStudentObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab07_ClassObject/TestAddressObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab07_ClassObject/TestAddressObjects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestAddressObjects">
+  <component name="RunManager" selected="Application.TestCarObjects">
     <configuration name="CustomMethodsPractice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab06_Methods.CustomMethodsPractice3" />
       <module name="Java_Labs" />
@@ -119,9 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCarObjects" />
         <item itemvalue="Application.TestAddressObjects" />
         <item itemvalue="Application.TestCydeoStudentObjects" />
-        <item itemvalue="Application.TestCarObjects" />
         <item itemvalue="Application.CustomMethodsPractice4" />
         <item itemvalue="Application.CustomMethodsPractice3" />
       </list>
@@ -159,7 +155,7 @@
       <workItem from="1663092289073" duration="597000" />
       <workItem from="1663142341558" duration="718000" />
       <workItem from="1663148630523" duration="8018000" />
-      <workItem from="1663218163122" duration="17786000" />
+      <workItem from="1663218163122" duration="18620000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -280,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663248284615</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="JavaLabs">
+      <created>1663251838558</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663251838558</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +342,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/lab07_ClassObject/Address.java</url>
+          <line>14</line>
+          <properties class="lab07_ClassObject.Address" method="toString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
