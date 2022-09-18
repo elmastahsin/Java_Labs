@@ -1,7 +1,4 @@
 package lab07_ClassObject;
-
-import java.io.StringReader;
-
 public class TestCydeoStudentObjects {
     public static void main(String[] args) {
 
@@ -23,6 +20,21 @@ public class TestCydeoStudentObjects {
 
         System.out.println(cydeoStudent3);
 
+        System.out.println("-----------------------------------------------------");
+
+     /*   CydeoStudent student1 = new CydeoStudent();
+        CydeoStudent student2 = student1;
+        CydeoStudent student3 = student2;
+
+
+        student3.setInfo("Naran", 30, 'M', true, true, "Java Developer Batch 1", 2, "Java");
+
+
+        student3.age = 35;
+
+        System.out.println(student1);
+        System.out.println(student2);
+        System.out.println(student3);*/
 
     }
 }

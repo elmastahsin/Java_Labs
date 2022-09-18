@@ -28,7 +28,7 @@ public class PizzaApp {
                 if(pizzaChoice.equals("special")){ //special pizza
 
                     //build your pizza
-                    System.out.println("I am building my own pizza");
+                    buildSpecialPizza();
 
 
                 }else{
@@ -44,6 +44,44 @@ public class PizzaApp {
             }
 
         }
+
+    }
+
+    private static void buildSpecialPizza() {
+        Scanner scanner = new Scanner(System.in);
+        double totalPrice = 19.99;
+        boolean extraCorn = false ;
+        boolean extraThinCrust = false ;
+        boolean extraOlives = false ;
+
+        System.out.println("Do you wnat extra corn $2?Yes/No");
+        String answer = scanner.next().toLowerCase();
+        if (answer.equals("yes")) {
+            extraCorn = true;
+            totalPrice += 2;
+        }
+        System.out.println("Do you want extra thin crust for $1 ?Yes/No");
+        answer = scanner.next().toLowerCase();
+        if (answer.equals("yes")) {
+            extraThinCrust = true;
+            totalPrice += 1;
+        }
+        System.out.println("Do you want extra thin olives for $2?Yes/No");
+        answer = scanner.next().toLowerCase();
+        if (answer.equals("yes")) {
+            extraOlives = true;
+            totalPrice += 2 ;
+        }
+
+        String orderExp = "We have received your order. Your Special Pizza includes;";
+        if (extraCorn) orderExp += "Extra Corn, ";
+        if (extraOlives) orderExp += "Extra Olives, ";
+        if (extraThinCrust) orderExp += "Extra Thin Crust, ";
+
+        orderExp += " Prices is $ " + totalPrice;
+        System.out.println(orderExp);
+
+
 
     }
 
