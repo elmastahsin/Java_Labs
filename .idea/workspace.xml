@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change afterPath="$PROJECT_DIR$/src/lab07_ClassObject/lab07 class notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab07_ClassObject/TestCydeoStudentObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab07_ClassObject/TestCydeoStudentObjects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +49,13 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PizzaApp">
-    <configuration name="CustomMethodsPractice4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab06_Methods.CustomMethodsPractice4" />
+  <component name="RunManager" selected="Application.BudgetSplitterLab">
+    <configuration name="BudgetSplitterLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab08_SplitterApp.BudgetSplitterLab" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab06_Methods.*" />
+          <option name="PATTERN" value="lab08_SplitterApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BudgetSplitterLab" />
         <item itemvalue="Application.PizzaApp" />
         <item itemvalue="Application.TestCydeoStudentObjects" />
         <item itemvalue="Application.TestCarObjects" />
         <item itemvalue="Application.TestAddressObjects" />
-        <item itemvalue="Application.CustomMethodsPractice4" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +159,10 @@
       <workItem from="1663148630523" duration="8018000" />
       <workItem from="1663218163122" duration="20112000" />
       <workItem from="1663317974217" duration="981000" />
-      <workItem from="1663515628136" duration="3078000" />
+      <workItem from="1663515628136" duration="3702000" />
+      <workItem from="1664520122415" duration="6685000" />
+      <workItem from="1664600132236" duration="4632000" />
+      <workItem from="1664635664700" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -295,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663252759371</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="JavaLabs">
+      <created>1663529691360</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663529691360</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,6 +442,16 @@
           <url>file://$PROJECT_DIR$/src/lab03LoopsMethods/PizzaApp.java</url>
           <line>254</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
