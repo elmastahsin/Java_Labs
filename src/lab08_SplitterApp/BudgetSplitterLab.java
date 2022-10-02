@@ -85,7 +85,7 @@ public class BudgetSplitterLab {
                     }
                     break;
                 case 3:
-
+                    ArrayList<Split> splitList = calculateSplitByUser(expenseList);
                     break;
                 case 4:
 
@@ -95,6 +95,33 @@ public class BudgetSplitterLab {
 
             }
         }
+    }
+
+    public static ArrayList<Split> calculateSplitByUser(ArrayList<Expense> expenseList) {
+        ArrayList<Split> splitList = new ArrayList<>();
+
+        for (Expense expense : expenseList) {
+            Split split = existSplitList(expense.user, splitList);
+            if (split != null) {
+                split.amount += expense.amount;
+            } else {
+                Split willBeAdded = new Split();
+                willBeAdded.userName = expense.user;
+                willBeAdded.amount = expense.amount;
+                splitList.add(willBeAdded);
+            }
+        }
+        return splitList;
+    }
+
+    public static Split existSplitList(String userName, ArrayList<Split> splitList) {
+
+        for (Split split : splitList) {
+            if (split.userName.equals(userName)) {
+                return split;
+            }
+        }
+        return null;
     }
 
 

@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/Split.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" afterDir="false" />
     </list>
@@ -165,7 +163,7 @@
       <workItem from="1664600132236" duration="4632000" />
       <workItem from="1664635664700" duration="3580000" />
       <workItem from="1664683318880" duration="6423000" />
-      <workItem from="1664723636622" duration="7522000" />
+      <workItem from="1664723636622" duration="8847000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664699752817</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="JavaLabs">
+      <created>1664745449638</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664745449638</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,11 +481,6 @@
           <url>file://$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java</url>
           <line>70</line>
           <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitter2.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
