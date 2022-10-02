@@ -1,14 +1,9 @@
 package lab08_SplitterApp;
 
-import com.sun.security.jgss.GSSUtil;
-import com.sun.source.tree.ArrayTypeTree;
-
-import javax.lang.model.type.ArrayType;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class BudgetSplitterLab {
     public static void main(String[] args) {
@@ -20,6 +15,7 @@ public class BudgetSplitterLab {
         System.out.println("How many people do you want will split the budget planner ");
 
         ArrayList<User> userList = prepareUserList(input);
+        ArrayList<Expense> expenseList = new ArrayList<>();
 
         System.out.println("Added user count : " + userList.size());
 
@@ -43,23 +39,56 @@ public class BudgetSplitterLab {
                     expense.amount = input.nextInt();
                     System.out.println("Which user made this expense? Just type user ID: ");
 
-                    for (User each : userList) {
-                        System.out.println("id : " + userList.indexOf(each) + " name: " + each.name);
+                    for (User user : userList) {
+                        System.out.println("id : " + userList.indexOf(user) + " name: " + user.name);
                     }
 
                     int userID = input.nextInt();
                     User user = userList.get(userID);
                     expense.user = user.name;
-                    ArrayList<Expense> expenseList = new ArrayList<>();
                     expenseList.add(expense);
                     break;
                 case 1:
+                    System.out.println("Please provide user name that you would like to search");
+                    String userName = input.next();
+                    User myUser = null;
+                    for (User chosenUser : userList) {
+                        if (chosenUser.name.equals(userName)) {
+                            myUser = chosenUser;
+                            break;
+                        }
+                    }
+                    if (myUser == null) {
+                        System.out.println("User not exists!");
+                        break;
+                    }
+                    int userExpenseAmount = 0;
+                    int expenseCount = 0;
+
+                    for (int i = 0; i < expenseList.size(); i++) {
+                        if (expenseList.get(i).user.equals(userName)) {
+
+                            userExpenseAmount += expenseList.get(i).amount;
+                            expenseCount++;
+
+                            System.out.println(expenseCount + " - expense amount: " + expenseList.get(i).amount
+                                    + ", expense by : " + expenseList.get(i).user);
+                        }
+                    }
+                    System.out.println(myUser.name + " spent $ " + userExpenseAmount);
+
                     break;
                 case 2:
+                    for (int i = 0; i < expenseList.size(); i++) {
+                        System.out.println(i + " expense amount: " + expenseList.get(i).amount
+                                + " expense by: " + expenseList.get(i).user);
+                    }
                     break;
                 case 3:
+
                     break;
                 case 4:
+
                     break;
                 case 5:
                     System.exit(0);
