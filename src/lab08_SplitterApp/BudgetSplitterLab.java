@@ -1,11 +1,14 @@
 package lab08_SplitterApp;
 
+import com.sun.security.jgss.GSSUtil;
 import com.sun.source.tree.ArrayTypeTree;
 
 import javax.lang.model.type.ArrayType;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.SortedMap;
 
 public class BudgetSplitterLab {
     public static void main(String[] args) {
@@ -21,7 +24,7 @@ public class BudgetSplitterLab {
         System.out.println("Added user count : " + userList.size());
 
         String[] optionList = prepareOptionList();
-        while(true) {
+        while (true) {
             System.out.println("What would you like to do ?");
 
             for (int i = 0; i < prepareOptionList().length; i++) {
@@ -32,7 +35,23 @@ public class BudgetSplitterLab {
 
             switch (request - 1) {
                 case 0:
+                    // ask expense name
+                    Expense expense = new Expense();
+                    System.out.println("Enter expense name :");
+                    expense.expenseName = input.next();
+                    System.out.println("Expense amount:");
+                    expense.amount = input.nextInt();
+                    System.out.println("Which user made this expense? Just type user ID: ");
 
+                    for (User each : userList) {
+                        System.out.println("id : " + userList.indexOf(each) + " name: " + each.name);
+                    }
+
+                    int userID = input.nextInt();
+                    User user = userList.get(userID);
+                    expense.user = user.name;
+                    ArrayList<Expense> expenseList = new ArrayList<>();
+                    expenseList.add(expense);
                     break;
                 case 1:
                     break;

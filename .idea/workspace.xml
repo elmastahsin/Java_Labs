@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,8 @@
       <workItem from="1663515628136" duration="3702000" />
       <workItem from="1664520122415" duration="6685000" />
       <workItem from="1664600132236" duration="4632000" />
-      <workItem from="1664635664700" duration="2186000" />
+      <workItem from="1664635664700" duration="3580000" />
+      <workItem from="1664683318880" duration="4027000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -304,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663529691360</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="JavaLabs">
+      <created>1664644810565</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664644810565</updated>
+    </task>
+    <task id="LOCAL-00022" summary="JavaLabs">
+      <created>1664698616917</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664698616917</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,13 +459,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java</url>
-          <line>7</line>
+          <line>15</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
