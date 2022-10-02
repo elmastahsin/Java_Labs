@@ -2,7 +2,6 @@ package lab08_SplitterApp;
 
 import java.util.ArrayList;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BudgetSplitterLab {
@@ -85,7 +84,13 @@ public class BudgetSplitterLab {
                     }
                     break;
                 case 3:
+                    double totalAmount = 0;
                     ArrayList<Split> splitList = calculateSplitByUser(expenseList);
+
+                    for (Split split : splitList){
+                        totalAmount += split.amount;
+                    }
+                    makeSplit(totalAmount,splitList);
                     break;
                 case 4:
 
@@ -97,6 +102,17 @@ public class BudgetSplitterLab {
         }
     }
 
+    public static void makeSplit(double totalAmount, ArrayList<Split> splitList) {
+        double amount = totalAmount / splitList.size();
+for (Split split : splitList) {
+if (split.amount > amount){
+    System.out.println(split.userName + " needs to take back " + (split.amount-amount));
+}else {
+    System.out.println(split.userName + " needs to give  " + (-1 * (amount-split.amount)));
+}
+}
+    }
+
     public static ArrayList<Split> calculateSplitByUser(ArrayList<Expense> expenseList) {
         ArrayList<Split> splitList = new ArrayList<>();
 
@@ -104,6 +120,7 @@ public class BudgetSplitterLab {
             Split split = existSplitList(expense.user, splitList);
             if (split != null) {
                 split.amount += expense.amount;
+
             } else {
                 Split willBeAdded = new Split();
                 willBeAdded.userName = expense.user;
