@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab10_class_Object/lab 10 day class notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_09_SplitterApp/BudgetSplitterLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_09_SplitterApp/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/Split.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_09_SplitterApp/Split.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_09_SplitterApp/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +54,13 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BudgetSplitterLab">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BudgetSplitter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab08_SplitterApp.BudgetSplitter2" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab08_SplitterApp.*" />
+          <option name="PATTERN" value="lab08_09_SplitterApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,11 +69,11 @@
       </method>
     </configuration>
     <configuration name="BudgetSplitterLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab08_SplitterApp.BudgetSplitterLab" />
+      <option name="MAIN_CLASS_NAME" value="lab08_09_SplitterApp.BudgetSplitterLab" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab08_SplitterApp.*" />
+          <option name="PATTERN" value="lab08_09_SplitterApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCarObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab07_ClassObject.TestCarObjects" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab10_class_Object.scrumTask.Test" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab07_ClassObject.*" />
+          <option name="PATTERN" value="lab10_class_Object.scrumTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BudgetSplitterLab" />
         <item itemvalue="Application.BudgetSplitter2" />
         <item itemvalue="Application.PizzaApp" />
         <item itemvalue="Application.TestCydeoStudentObjects" />
-        <item itemvalue="Application.TestCarObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +169,10 @@
       <workItem from="1664600132236" duration="4632000" />
       <workItem from="1664635664700" duration="3580000" />
       <workItem from="1664683318880" duration="6423000" />
-      <workItem from="1664723636622" duration="9158000" />
+      <workItem from="1664723636622" duration="9628000" />
+      <workItem from="1664779465842" duration="522000" />
+      <workItem from="1665317197180" duration="1445000" />
+      <workItem from="1665382061537" duration="4426000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -339,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664746624039</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="JavaLabs">
+      <created>1664747357359</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664747357359</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,13 +496,13 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java</url>
-          <line>10</line>
+          <url>file://$PROJECT_DIR$/src/lab08_09_SplitterApp/BudgetSplitterLab.java</url>
+          <line>9</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java</url>
-          <line>70</line>
+          <url>file://$PROJECT_DIR$/src/lab08_09_SplitterApp/BudgetSplitterLab.java</url>
+          <line>69</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

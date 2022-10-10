@@ -1,4 +1,4 @@
-package lab08_SplitterApp;
+package lab08_09_SplitterApp;
 
 public class Split {
 
