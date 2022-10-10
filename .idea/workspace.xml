@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change afterPath="$PROJECT_DIR$/src/lab10_class_Object/lab 10 day class notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/BudgetSplitterLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_09_SplitterApp/BudgetSplitterLab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_09_SplitterApp/Expense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/Split.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_09_SplitterApp/Split.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab08_SplitterApp/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab08_09_SplitterApp/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/Developer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +166,7 @@
       <workItem from="1664723636622" duration="9628000" />
       <workItem from="1664779465842" duration="522000" />
       <workItem from="1665317197180" duration="1445000" />
-      <workItem from="1665382061537" duration="4426000" />
+      <workItem from="1665382061537" duration="5396000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -356,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664747357359</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="JavaLabs">
+      <created>1665431924673</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665431924673</updated>
+    </task>
+    <task id="LOCAL-00028" summary="JavaLabs">
+      <created>1665432002724</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665432002724</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
