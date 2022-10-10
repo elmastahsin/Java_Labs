@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/Developer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +165,7 @@
       <workItem from="1664723636622" duration="9628000" />
       <workItem from="1664779465842" duration="522000" />
       <workItem from="1665317197180" duration="1445000" />
-      <workItem from="1665382061537" duration="5396000" />
+      <workItem from="1665382061537" duration="6026000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -364,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665432002724</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="JavaLabs">
+      <created>1665433316753</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1665433316753</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

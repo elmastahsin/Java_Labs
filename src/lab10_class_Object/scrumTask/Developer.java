@@ -109,6 +109,12 @@ public class Developer {
         setProgrammingLanguage(programmingLanguage);
     }
 
+    public void coding(){
+        System.out.println(name + "is coding " +programmingLanguage);
+    }
+    public void fixingBug(){
+        System.out.println(name + "is fixing bugs");
+    }
     @Override
     public String toString() {
         return "Developer{" +
