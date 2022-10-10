@@ -86,8 +86,9 @@ public class Developer {
 
     public void setProgrammingLanguage(String programmingLanguage) {
         ArrayList<String> programmingLanguages = new ArrayList<>();
-        programmingLanguages.addAll(Arrays.asList("Java", "JavaScript", "Python", "Ruby", "C#", "C++", "Swift"));
-        if (!programmingLanguage.contains(programmingLanguage)) {
+        programmingLanguages.addAll(Arrays.asList(
+                "Java", "JavaScript", "Python", "Ruby", "C#", "C++", "Swift"));
+        if (!(programmingLanguages.contains(programmingLanguage))) {
             System.err.println("Invalid Programming Languages " + programmingLanguage);
             System.exit(1);
         }
