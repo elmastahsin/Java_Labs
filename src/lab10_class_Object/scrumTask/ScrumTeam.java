@@ -1,11 +1,12 @@
 package lab10_class_Object.scrumTask;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ScrumTeam {
-    private String PO,BA,SM;
-    private ArrayList<Tester> tester= new ArrayList<>();
-    private ArrayList<Developer> developers= new ArrayList<>();
+    private String PO, BA, SM;
+    private ArrayList<Tester> testers = new ArrayList<>();
+    private ArrayList<Developer> developers = new ArrayList<>();
     private int dayOfSprint;
 
     public String getPO() {
@@ -13,7 +14,7 @@ public class ScrumTeam {
     }
 
     public void setPO(String PO) {
-terminate(PO,"Invalid PO name" + PO);
+        terminate(PO, "Invalid PO name" + PO);
         this.PO = PO;
     }
 
@@ -22,7 +23,7 @@ terminate(PO,"Invalid PO name" + PO);
     }
 
     public void setBA(String BA) {
-        terminate(BA ,"Invalid BA name" + BA);
+        terminate(BA, "Invalid BA name" + BA);
         this.BA = BA;
     }
 
@@ -31,7 +32,7 @@ terminate(PO,"Invalid PO name" + PO);
     }
 
     public void setSM(String SM) {
-        terminate(SM,"Invalid SM name" + SM);
+        terminate(SM, "Invalid SM name" + SM);
         this.SM = SM;
     }
 
@@ -40,7 +41,7 @@ terminate(PO,"Invalid PO name" + PO);
     }
 
     public void setDayOfSprint(int dayOfSprint) {
-        if (dayOfSprint<=0){
+        if (dayOfSprint <= 0) {
             System.err.println("Invalid day of sprint " + dayOfSprint);
             System.exit(1);
         }
@@ -55,11 +56,58 @@ terminate(PO,"Invalid PO name" + PO);
         return developers;
     }
 
-    private static void terminate(String arg, String err){
-        if (arg==null||arg.isEmpty()||arg.isBlank()){
+    private static void terminate(String arg, String err) {
+        if (arg == null || arg.isEmpty() || arg.isBlank()) {
             System.err.println(err);
             System.exit(1);
         }
+    }
+
+    public ScrumTeam(String PO, String BA, String SM, int dayOfSprint) {
+        setPO(PO);
+        setBA(BA);
+        setSM(SM);
+        setDayOfSprint(dayOfSprint);
+    }
+
+    public void addTester(Tester tester) {
+        testers.add(tester);
+
+    }
+
+    public void addTester(Tester[] tester) {
+        testers.addAll(Arrays.asList(tester));
+
+    }
+
+    public void addDeveloper(Developer developer) {
+        developers.add(developer);
+
+    }
+
+    public void addDeveloper(Developer[] developer) {
+        developers.addAll(Arrays.asList(developer));
+
+    }
+
+    public void removeTester(String id) {
+        testers.removeIf(p -> p.getId().equals(id));
+    }
+
+    public void removeDeveloper(String id) {
+        developers.removeIf(p -> p.getId().equals(id));
+    }
+
+    @Override
+    public String toString() {
+        return "ScrumTeam{" +
+                "PO='" + PO + '\'' +
+                ", BA='" + BA + '\'' +
+                ", SM='" + SM + '\'' +
+                ", testers=" + testers.size() +
+                ", developers=" + developers.size() +
+
+                '}';
     }
 }
 /*
