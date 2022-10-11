@@ -106,8 +106,6 @@ public class ScrumTeam {
                 ", SM='" + SM + '\'' +
                 ", testers=" + testers.size() +
                 ", developers=" + developers.size() +
-
-
                 '}';
     }
 }
