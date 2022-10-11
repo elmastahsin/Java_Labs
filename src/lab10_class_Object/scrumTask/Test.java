@@ -8,6 +8,8 @@ public class Test {
 
         Developer developer1= new Developer("Tyson",23,'M',"A23","Back-end Developer",23.34,"Java");
         System.out.println(developer1);
+        developer1.fixingBug();
+        developer1.coding();
 
     }
 }
