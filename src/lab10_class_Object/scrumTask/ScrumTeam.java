@@ -49,7 +49,7 @@ public class ScrumTeam {
     }
 
     public ArrayList<Tester> getTester() {
-        return tester;
+        return testers;
     }
 
     public ArrayList<Developer> getDevelopers() {

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs">
+    <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs 10">
+      <change afterPath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/MyScrumTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/ScrumTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab10_class_Object/scrumTask/ScrumTeam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.MyScrumTeam">
     <configuration name="BudgetSplitter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab08_SplitterApp.BudgetSplitter2" />
       <module name="Java_Labs" />
@@ -67,6 +69,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lab08_09_SplitterApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyScrumTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab10_class_Object.scrumTask.MyScrumTeam" />
+      <module name="Java_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab10_class_Object.scrumTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCydeoStudentObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab07_ClassObject.TestCydeoStudentObjects" />
-      <module name="Java_Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab07_ClassObject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyScrumTeam" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.BudgetSplitterLab" />
         <item itemvalue="Application.BudgetSplitter2" />
         <item itemvalue="Application.PizzaApp" />
-        <item itemvalue="Application.TestCydeoStudentObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +168,7 @@
       <workItem from="1664779465842" duration="522000" />
       <workItem from="1665317197180" duration="1445000" />
       <workItem from="1665382061537" duration="6707000" />
-      <workItem from="1665466273299" duration="1555000" />
+      <workItem from="1665466273299" duration="2191000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -392,7 +394,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665472706553</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="JavaLabs">
+      <created>1665473136059</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1665473136059</updated>
+    </task>
+    <task id="LOCAL-00034" summary="JavaLabs 10">
+      <created>1665473159717</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1665473159717</updated>
+    </task>
+    <task id="LOCAL-00035" summary="JavaLabs 10">
+      <created>1665473169027</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1665473169027</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +434,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JavaLabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaLabs" />
+    <MESSAGE value="JavaLabs 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaLabs 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
