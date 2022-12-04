@@ -1,6 +1,6 @@
 package lab11_inheritance_Abstraction;
 
-public class Teacher extends Employee{
+public final class Teacher extends Employee implements WFH {
 
 
 
@@ -10,7 +10,20 @@ public class Teacher extends Employee{
     }
 
     @Override
-    void work() {
+    public void work() {
+        System.out.println(getName()+ " is preaparing class material.");
+    }
+    public void teach(){
+        System.out.println(getName()+ " is teaching");
+    }
+
+    @Override
+    public boolean hasZoom() {
+        return false;
+    }
+
+    @Override
+    public void workFromHome() {
 
     }
 }

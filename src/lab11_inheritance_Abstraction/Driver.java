@@ -6,7 +6,8 @@ public class Driver extends Employee{
     }
 
     @Override
-    void work() {
+    public void work() {
+        System.out.println(getName()+ " is driving");
 
     }
 }

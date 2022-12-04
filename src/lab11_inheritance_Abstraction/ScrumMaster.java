@@ -1,12 +1,40 @@
 package lab11_inheritance_Abstraction;
 
-public class ScrumMaster extends Employee{
-    public ScrumMaster(String name, int age, char gender, String id, String jobTitle, double salary) {
-        super(name, age, gender, id, jobTitle, salary);
+public final class ScrumMaster extends Employee implements ScrumMember , WFH {
+    public ScrumMaster(String name, int age, char gender, String id,  double salary) {
+        super(name, age, gender, id, "Scrum Master", salary);
     }
 
     @Override
-    void work() {
+    public void work() {
+        System.out.println(getName()+ " is scheduling the meetings.");
+    }
+    public void coaching(){
+        System.out.println(getName()+ " is coaching.");
+    }
+
+    @Override
+    public void dailyStandUp() {
+
+    }
+
+    @Override
+    public void gromming() {
+
+    }
+
+    @Override
+    public void sprintPlanning() {
+
+    }
+
+    @Override
+    public boolean hasZoom() {
+        return false;
+    }
+
+    @Override
+    public void workFromHome() {
 
     }
 }

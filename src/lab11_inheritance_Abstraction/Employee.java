@@ -40,7 +40,7 @@ public abstract class Employee extends Person { // meant to be inherita
         this.salary = salary;
     }
 
-    abstract void work(); // meant to be overriden
+     public abstract void work(); // meant to be overriden
 
     @Override
     public String toString() {

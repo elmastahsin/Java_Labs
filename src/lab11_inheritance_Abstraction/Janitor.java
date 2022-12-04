@@ -1,13 +1,13 @@
 package lab11_inheritance_Abstraction;
 
-public class Janitor extends Employee{
-    public Janitor(String name, int age, char gender, String id, String jobTitle, double salary) {
-        super(name, age, gender, id, jobTitle, salary);
+public final class Janitor extends Employee{
+    public Janitor(String name, int age, char gender, String id, double salary) {
+        super(name, age, gender, id, "Janitor", salary);
     }
 
     @Override
-    void work() {
-
+    public void work() {
+        System.out.println(getName()+ " is cleaning the building.");
     }
 }
 /*7. Janitor:*/
