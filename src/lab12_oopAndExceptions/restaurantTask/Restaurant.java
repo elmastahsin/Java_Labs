@@ -18,6 +18,14 @@ public class Restaurant {
         chefs = new ArrayList<>();
     }
 
+    public ArrayList<Server> getServers() {
+        return servers;
+    }
+
+    public ArrayList<Chef> getChefs() {
+        return chefs;
+    }
+
     public String getOwnername() {
         return ownername;
     }
@@ -96,4 +104,5 @@ public class Restaurant {
                 ", number of chefs=" + chefs.size() +
                 '}';
     }
+
 }
