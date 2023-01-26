@@ -75,4 +75,18 @@ public abstract class Employee {
     }
 
     private double salary;
+
+    public abstract void work();
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + "{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", id='" + id + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary= $" + salary +
+                '}';
+    }
 }
