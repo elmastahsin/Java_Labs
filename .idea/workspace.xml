@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs 12 Exceptions">
-      <change afterPath="$PROJECT_DIR$/src/lab12_oopAndExceptions/restaurantTask/LocalRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab13_collection_map/lab13 class notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab12_oopAndExceptions/restaurantTask/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab12_oopAndExceptions/restaurantTask/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab12_oopAndExceptions/restaurantTask/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab12_oopAndExceptions/restaurantTask/Server.java" afterDir="false" />
+    <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs 13 Collections">
+      <change afterPath="$PROJECT_DIR$/src/lab13_collection_map/ArrayPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LocalRestaurant">
+  <component name="RunManager" selected="Application.ArrayPractice">
+    <configuration name="ArrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab13_collection_map.ArrayPractice" />
+      <module name="Java_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab13_collection_map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExceptionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab12_oopAndExceptions.ExceptionPractice" />
       <module name="Java_Labs" />
@@ -106,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab10_class_Object.scrumTask.Test" />
-      <module name="Java_Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab10_class_Object.scrumTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayPractice" />
         <item itemvalue="Application.LocalRestaurant" />
         <item itemvalue="Application.NoSuchJobException" />
         <item itemvalue="Application.ExceptionPractice" />
         <item itemvalue="Application.MyScrumTeam" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +176,7 @@
       <workItem from="1670153538470" duration="7353000" />
       <workItem from="1670180191820" duration="2534000" />
       <workItem from="1670240249238" duration="1748000" />
-      <workItem from="1674723963076" duration="8309000" />
+      <workItem from="1674723963076" duration="9255000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -490,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674729526291</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="JavaLabs 12 Exceptions">
+      <created>1674735536631</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1674735536631</updated>
+    </task>
+    <task id="LOCAL-00046" summary="JavaLabs 13 Collections">
+      <created>1674735550260</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1674735550260</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +553,8 @@
     <MESSAGE value="JavaLabs 11 Inheritance Project" />
     <MESSAGE value="JavaLabs 11 Inheritance,Interface and Abstract Exercises" />
     <MESSAGE value="JavaLabs 12 Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaLabs 12 Exceptions" />
+    <MESSAGE value="JavaLabs 13 Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaLabs 13 Collections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
