@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs 11 Inheritance Project">
-      <change afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/ScrumMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/WFH.java" afterDir="false" />
+    <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs 11 Inheritance,Interface and Abstract Exercises">
+      <change afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab12_oopAndExceptions/ExceptionPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/BusinessAnalyst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/BusinessAnalyst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Janitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Janitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/ScrumMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/ScrumMaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab11_inheritance_Abstraction/Tester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +50,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyScrumTeam">
+  <component name="RunManager" selected="Application.ExceptionPractice">
     <configuration name="BudgetSplitter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab08_SplitterApp.BudgetSplitter2" />
       <module name="Java_Labs" />
@@ -85,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyScrumTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab10_class_Object.scrumTask.MyScrumTeam" />
+    <configuration name="ExceptionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab12_oopAndExceptions.ExceptionPractice" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab10_class_Object.scrumTask.*" />
+          <option name="PATTERN" value="lab12_oopAndExceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab03LoopsMethods.PizzaApp" />
+    <configuration name="MyScrumTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab10_class_Object.scrumTask.MyScrumTeam" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab03LoopsMethods.*" />
+          <option name="PATTERN" value="lab10_class_Object.scrumTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionPractice" />
         <item itemvalue="Application.MyScrumTeam" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.BudgetSplitterLab" />
         <item itemvalue="Application.BudgetSplitter2" />
-        <item itemvalue="Application.PizzaApp" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +174,9 @@
       <workItem from="1665494333038" duration="598000" />
       <workItem from="1665548731500" duration="1196000" />
       <workItem from="1665575185730" duration="593000" />
-      <workItem from="1670153538470" duration="6694000" />
+      <workItem from="1670153538470" duration="7353000" />
+      <workItem from="1670180191820" duration="2534000" />
+      <workItem from="1670240249238" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="JavaLabs">
       <created>1662182789774</created>
@@ -443,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670157674137</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="JavaLabs 11 Inheritance,Interface and Abstract Exercises">
+      <created>1670160498967</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1670160498967</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +495,8 @@
     <MESSAGE value="JavaLabs" />
     <MESSAGE value="JavaLabs 10" />
     <MESSAGE value="JavaLabs 11 Inheritance Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaLabs 11 Inheritance Project" />
+    <MESSAGE value="JavaLabs 11 Inheritance,Interface and Abstract Exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="JavaLabs 11 Inheritance,Interface and Abstract Exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
