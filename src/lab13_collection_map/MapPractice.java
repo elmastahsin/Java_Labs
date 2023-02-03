@@ -46,7 +46,36 @@ public class MapPractice {
                 entry.setValue(55000);
             }
         }
+        System.out.println(car1);
 
 
+        System.out.println("---------------------------------------------------------");
+
+
+        Map<String, Object> car2 = new LinkedHashMap<>();
+        car2.put("brand", "Audi");
+        car2.put("model", "Q7");
+        car2.put("color", "Gray");
+        car2.put("year", 2022);
+        car2.put("price", 50000);
+        car2.put("electric", false);
+
+        Map<String, Object> car3 = new LinkedHashMap<>();
+        car3.put("brand", "Tesla");
+        car3.put("model", "Model Y");
+        car3.put("color", "White");
+        car3.put("year", 2020);
+        car3.put("price", 60000);
+        car3.put("electric", true);
+
+        System.out.println("-----------------------------------");
+
+        Map<Integer,Map<String,Object>> cars = new LinkedHashMap<>();
+
+        cars.put(1,car1); // key must be unique
+        cars.put(2,car2);
+        cars.put(3,car3);
+
+        System.out.println(cars);
     }
 }
