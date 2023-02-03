@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs 13 Collections">
-      <change afterPath="$PROJECT_DIR$/src/lab13_collection_map/MapPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab13_collection_map/MapPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab13_collection_map/MapPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CollectionPractice">
+  <component name="RunManager" selected="Application.MapPractice">
     <configuration name="ArrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab13_collection_map.ArrayPractice" />
       <module name="Java_Labs" />
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab12_oopAndExceptions.ExceptionPractice" />
+    <configuration name="LocalRestaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab12_oopAndExceptions.restaurantTask.LocalRestaurant" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab12_oopAndExceptions.*" />
+          <option name="PATTERN" value="lab12_oopAndExceptions.restaurantTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalRestaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab12_oopAndExceptions.restaurantTask.LocalRestaurant" />
+    <configuration name="MapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab13_collection_map.MapPractice" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab12_oopAndExceptions.restaurantTask.*" />
+          <option name="PATTERN" value="lab13_collection_map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapPractice" />
         <item itemvalue="Application.CollectionPractice" />
         <item itemvalue="Application.ArrayPractice" />
         <item itemvalue="Application.LocalRestaurant" />
         <item itemvalue="Application.NoSuchJobException" />
-        <item itemvalue="Application.ExceptionPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -178,14 +178,7 @@
       <workItem from="1670180191820" duration="2534000" />
       <workItem from="1670240249238" duration="1748000" />
       <workItem from="1674723963076" duration="15270000" />
-      <workItem from="1675404575168" duration="1669000" />
-    </task>
-    <task id="LOCAL-00003" summary="JavaLabs">
-      <created>1662637207044</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1662637207044</updated>
+      <workItem from="1675404575168" duration="3015000" />
     </task>
     <task id="LOCAL-00004" summary="JavaLabs">
       <created>1662715825097</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675417794816</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="JavaLabs 13 Collections">
+      <created>1675419081515</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1675419081515</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
