@@ -77,5 +77,41 @@ public class MapPractice {
         cars.put(3,car3);
 
         System.out.println(cars);
+
+        cars.get(2).replace("year",2018);
+        cars.get(2).replace("price",40000);
+
+        System.out.println(cars);
+
+        System.out.println("-----------------------------------");
+
+
+        for (Map.Entry<Integer, Map<String, Object>> entry : cars.entrySet()) {
+            for (Map.Entry<String, Object> entry2 : entry.getValue().entrySet()) {
+
+                if (entry2.getKey().equalsIgnoreCase("price")){
+                    entry2.setValue( (Integer)entry2.getValue()* 1.1 );
+                }
+
+
+
+            }
+        }
+
+
+
+
+
+        System.out.println(cars);
+
+
+
+
+
+
+
+
+
+
     }
 }
