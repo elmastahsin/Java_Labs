@@ -1,6 +1,6 @@
 package lab07_ClassObject;
 
-public class CydeoStudent {
+public class METUStudent {
 
     public String name;
     public int age;
@@ -27,7 +27,7 @@ public class CydeoStudent {
 
     @Override
     public String toString() {
-        return "CydeoStudent{" +
+        return "METUStudent{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +
@@ -37,10 +37,10 @@ public class CydeoStudent {
     }
 }
 /*
-* 1. Create a custom class for CydeoStudent objects.
+* 1. Create a custom class for METUStudent objects.
 1. In each object, user should be able to store the name, age, gender, isMarried,
-* isEmployeed, batch, programming language, and group number information of the Cydeo student
-2. Add a function named setInfo that allows the user to be able to set all the fields of the Cydeo student
+* isEmployeed, batch, programming language, and group number information of the METU student
+2. Add a function named setInfo that allows the user to be able to set all the fields of the METU student
 3. Add a function named study that can print the name and programming language the student studying
 4. Add a function that allows the user to be able to display each objects’ name, age, gender, batch
 * and programming language of the student when it’s passed in the print statement*/

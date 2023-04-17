@@ -3,7 +3,7 @@ package lab05_String;
 public class StringMethosPractice {
     public static void main(String[] args) {
 
-        //String name2 = "Cydeo School";
+        //String name2 = "METU School";
 
         String name = "Josh Daniel Aaron";
         //             0123456789...
@@ -21,7 +21,7 @@ public class StringMethosPractice {
 
         System.out.println("---------------------------------");
 
-        String school = "Cydeo School";
+        String school = "METU School";
 
         int index1 = school.indexOf('e');
 
@@ -70,7 +70,7 @@ public class StringMethosPractice {
         System.out.println("-----------------------------------------------------------");
 
 
-        String email = "cydeo_school@gmail.com";
+        String email = "metu_school@gmail.com";
 
         int beginningIndex = email.indexOf('@') + 1;
         int endingIndex = email.lastIndexOf('.');
@@ -81,7 +81,7 @@ public class StringMethosPractice {
 
         System.out.println("-----------------------------------------------------------");
 
-        String s2 = "I study at CYDEO school";
+        String s2 = "I study at METU school";
 
         String schoolName = s2.substring(s2.indexOf('C'));
 
@@ -109,9 +109,9 @@ public class StringMethosPractice {
         System.out.println("-----------------------------------------------------------");
 
 
-        String w = "Cydeo School";
+        String w = "METU School";
 
-        System.out.println( w.startsWith("Cydeo"));
+        System.out.println( w.startsWith("METU"));
 
         System.out.println( w.endsWith("ool") );
 

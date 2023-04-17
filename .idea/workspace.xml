@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ffc525-bcd2-4f2c-8d12-97d8ffb8683b" name="Changes" comment="JavaLabs 13 Collections">
-      <change beforePath="$PROJECT_DIR$/src/lab13_collection_map/MapPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab13_collection_map/MapPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MapPractice">
+  <component name="RunManager" selected="Application.QuizApp">
     <configuration name="ArrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab13_collection_map.ArrayPractice" />
       <module name="Java_Labs" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoSuchJobException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab12_oopAndExceptions.restaurantTask.NoSuchJobException" />
+    <configuration name="QuizApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab02SelectionStatements.QuizApp" />
       <module name="Java_Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab12_oopAndExceptions.restaurantTask.*" />
+          <option name="PATTERN" value="lab02SelectionStatements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuizApp" />
         <item itemvalue="Application.MapPractice" />
         <item itemvalue="Application.CollectionPractice" />
         <item itemvalue="Application.ArrayPractice" />
         <item itemvalue="Application.LocalRestaurant" />
-        <item itemvalue="Application.NoSuchJobException" />
       </list>
     </recent_temporary>
   </component>
@@ -177,14 +177,10 @@
       <workItem from="1670180191820" duration="2534000" />
       <workItem from="1670240249238" duration="1748000" />
       <workItem from="1674723963076" duration="15270000" />
-      <workItem from="1675404575168" duration="4423000" />
-    </task>
-    <task id="LOCAL-00006" summary="JavaLabs">
-      <created>1663084995986</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1663084995986</updated>
+      <workItem from="1675404575168" duration="6021000" />
+      <workItem from="1675430812875" duration="1000" />
+      <workItem from="1675977787327" duration="26000" />
+      <workItem from="1676004817680" duration="153000" />
     </task>
     <task id="LOCAL-00007" summary="JavaLabs">
       <created>1663150694461</created>
@@ -522,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675426619988</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="JavaLabs 13 Collections">
+      <created>1675427100523</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1675427100523</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

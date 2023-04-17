@@ -3,11 +3,11 @@ package lab06_Methods;
 public class CustomMethodsPractice3 {
     public static void main(String[] args) {
 
-        System.out.println(doubleChar("Cydeo"));
+        System.out.println(doubleChar("METU"));
 
         System.out.println(endLy("friendly"));
 
-        System.out.println(endLy("Cydeo"));
+        System.out.println(endLy("METU"));
 
         System.out.println("*******************************");
 
